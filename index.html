@@ -1,0 +1,37 @@
+<!--GCLou-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <title>GifTastic</title>
+</head>
+
+<body>
+<h1>See Some Real Animals</h1>
+
+<p>Click a button to see 10 pictures. Click a picture to see animation (if it is available).
+Add a new button to get pictures in that category (anything that exists in the database, just saying...).</p>
+
+<!--html buttons to call pictures under each topic-->
+<div id="showButtons" ></div>
+
+<!--input fields to gather user input-->
+<div id="newButton" class="right">
+<!--textbox for user to add new topic-->
+<input type="text" id="addTopic"  value="" />
+<!--trigger to capture input value -->
+<button id="add" value="SUBMIT" class="btn">Add New Button</button>
+</div>
+
+<!--html div to show images and ratings-->
+<div id="images"></div>
+
+</body>
+
+  <script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+  <script type="text/javascript" src="assets/js/gif.js"></script>
+
+</html>
