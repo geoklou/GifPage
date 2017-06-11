@@ -94,5 +94,3 @@ function animate(){
 $(document).on("click", ".pix", display);
 //call function animate by clikcing class "animate" to look for animated gifs
 $(document).on("click", ".animate", animate);
-//just want to do this
-makeButtons();
